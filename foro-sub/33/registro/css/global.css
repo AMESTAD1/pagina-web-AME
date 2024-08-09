@@ -1,0 +1,162 @@
+/*
+body{
+	margin: 0;
+	background-color: #f1f8e0;
+	font-size: 16px;
+}*/
+header{
+	/*margin: 0 -250px 0;*/
+	/*padding: 15px 150px 0 150px;*/
+	/*width: 1200px;*/
+	height: 70px;
+	background-color: #fff;
+}
+/*
+footer{
+	clear: both;
+	width: 1200px;
+	height: 40px;
+	margin: 0 -150px 0;
+	padding: 15px 150px 0 150px;
+	background-color: #fff;
+}
+
+#logo{
+	width: 500px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 0px;
+	background-image: url("http://foro.amestad.mx/33/registro/css/logo.png");
+}
+
+.contenedor{
+	margin: 0 auto 0 auto;
+	width: 1200px;
+	min-height: 683px;
+}
+.recuadro{
+	margin: 1% auto 1% auto;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.base{
+	width: 1120px;
+	padding: 30px;
+	min-height: 480px;
+}
+
+
+.toString{
+	background-color: #f5f8df;
+	padding: 5px;
+	margin-left: 15px;
+}
+.toString, .toString *{
+	font-size: 12px;
+	line-height: 15px;
+}
+.toString p{
+	margin: 0 0 2px;
+}
+.toString .tit{
+	color: #000;
+	text-decoration: underline;	
+}
+
+/* ------------------------ Termina toString ----------------------------*/
+
+/* Inicia Formularios */
+/*
+input[type="text"],
+input[type="text"],
+input[type="password"],
+input[type="password"],
+textarea:focus,
+textarea.focus {
+    border: solid 1px gray;
+    box-shadow: 0 0 7px -2px gray;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus,
+input[type="password"]:focus,
+input[type="password"].focus,
+textarea:focus,
+textarea.focus {
+    border: solid 1px #007DC3;
+    box-shadow: 0 0 7px -2px #007DC3;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    background: #007DC3;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background: #007dc3;
+    cursor: pointer;
+    opacity: 1;
+}
+*/
+
+
+
+.glyphicon{
+
+}
+
+a:hover{
+   cursor: pointer;
+}
+
+p.form-control{
+   /*background-color: #F2F2F2;*/
+   margin: 0px 0px;
+   border: 0px;
+}
+
+hr{
+   
+}
+
+div{
+   margin: 0px 0px;
+}
+
+.control-label.required:after {
+  content:"*";color:red;
+}
+
+nav.navbar-default{
+    /*background-color: #CED8F6;*/
+}
+
+.glyphicon.glyphicon-plus{
+   font-size: 10px;
+}
+.logo{
+   margin: 15px 15px;
+}
+.nameheading {
+	font-size: x-large;
+	padding-bottom: 1em;
+}
+
+th.tablacuotas {
+	text-align: center;
+}
+
+td.tablacuotas {
+	text-align: right;
+	color: "#110088";
+}

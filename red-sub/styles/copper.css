@@ -1,0 +1,52 @@
+/* ________________________________________________________________________________________________________________
+	                                              01. GLOBAL STRUCTURE 
+   ________________________________________________________________________________________________________________ */
+
+body{background:url(copper/background.jpg) no-repeat scroll center top #080000;}
+#header{background:url(copper/menu.png) no-repeat scroll center bottom transparent;}
+.footer_background{background:url(copper/footer_background.png) repeat-y scroll center top transparent;}
+#footer{background: url(copper/footer.png) no-repeat scroll center bottom transparent;}
+
+.partial_gradient_slide{background: url(copper/gradient_slide.jpg) 0px 0px no-repeat;}
+
+
+/* ________________________________________________________________________________________________________________
+	                                              02. TYPOGRAPHY 
+   ________________________________________________________________________________________________________________ */
+
+
+/* ------- Links ------- */
+p a, a:hover, .webtreats_subnav_widget li.current_page_item a, .commentmetadata a, .blog_meta a,
+.contact_widget_email,.fancy_link,.download_link,.email_link,.toggle
+{color:#D65D5D;}
+
+/* ------- Misc ------- */
+blockquote, .bullet_list, h5, .rss-date, .date, .awaiting_moderation, .dropcap4{color:#D65D5D;}
+.inputError{border-color:#D65D5D !important;}
+.fancy_header span{background-color:#D65D5D;}
+
+/* ------- Footer ------- */
+#footer{color:#5F595A;}
+#footer a{color:#6F6364;}
+#footer a:hover{color:#aaa;}
+.footer_widgettitle,.partial_gradient_slide .slider_content,.partial_gradient_slide h2{color:#aaa;}
+
+/* ------- Buttons ------- */
+input[type=button],input[type=reset],input[type=submit],.fancy_button, .fancy_button span,
+.button_link,.button_link span, h6.color_scheme_box_header, h6.color_scheme_box_header span{
+	background-image:url(copper/button_sprite.png);}
+
+/* ________________________________________________________________________________________________________________
+	                                              03. ICONS 
+   ________________________________________________________________________________________________________________ */
+
+.dropcap1,.dropcap3,blockquote{background-image: url(copper/sprite.png);}
+ul.arrow_list li,ul.check_list li,ul.star_list li,ul.colored_bullet_list li,a.download_link,a.email_link{background-image: url(copper/mini_icons.png);}
+.toggle,.active,.toggle_frame .toggle,.toggle_frame .active{background-image: url(copper/toggle_sprite.png);}
+a.fancy_link{background-image: url(copper/fancy_link.png)}
+
+#body_block .widget_recent_comments ul li.recentcomments span,
+#body_block .webtreats_twitter_widget ul li,
+#body_block .contact_widget_name,
+#body_block .contact_widget_phone,
+#body_block .contact_widget_email{background-image: url(copper/mini_icons.png);}

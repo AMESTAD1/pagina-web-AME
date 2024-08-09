@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Website Search - Admin Page</title>
+	<link rel="canonical" href="http://amestad.mx/php-search-engine/phpsearch_files/admin.html" />
+<style type="text/css">
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#d1f2c4;
+	margin:0px;
+	padding:0px;
+	color:#999999;
+	font-family:"Trebuchet MS", Arial;
+	font-size:14px;
+	line-height:1.5em; /* vertical spacing between your lines of text*/
+	text-align:center;
+}
+a, a:link, a:visited {
+	color:#7abce5;
+}
+a:hover {
+	color:#c4e9f2;
+	text-decoration:none;
+}
+#wrapper {
+	width:960px;
+	margin:0px auto 30px auto; /*centers your design on the page*/
+	text-align:left;
+}
+#header {
+	height:84px;
+	width:960px;
+}
+#logo {
+	width:229px; /*change this width and height to match your logo image*/
+	height:46px;
+	float:left;
+	margin:23px 0 0 23px;
+}
+#admin_page {
+	width:221px; /*change this width and height to match your slogan image*/
+	height:45px;
+	float:right;
+	margin:25px 23px 0 0;
+}
+#menu_container{
+	width:470px;
+	height:30px;
+	clear:both;
+}
+#container{
+	background-image:url(http://amestad.mx/php-search-engine/phpsearch_files/content_bottom.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-color:#FFF;
+	min-height:200px;
+	padding-bottom:20px;
+}
+#container .top{
+	width:960px;
+	height:5px;
+}
+#container .content{
+	padding:23px;
+}
+#container .left_column{
+	width:470px;
+	float:left;
+	padding-right:15px;
+	border-right:1px solid #dddddd;
+}
+#container .right_column{
+	width:400px;
+	float:right;
+}
+input{
+	border:1px solid #dddddd;
+	background-color:#fafafa;
+	padding:4px;
+}
+textarea{
+		border:1px solid #dddddd;
+	background-color:#fafafa;
+	padding:4px;
+}
+hr.clear {
+	clear:both;
+	visibility:hidden;
+	margin:0px;
+	padding:0px;
+}
+.preview{
+	width:386px;
+	border-top:1px dashed #dddddd;
+	border-bottom:1px dashed #dddddd;
+	padding:10px 0px;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<div id="logo"></div>
+<div id="admin_page"></div>
+</div><!--end header-->
+<div id="menu_container"></div><!--end menu-->
+<div id="container">
+<div class="top"></div>
+<div class="content">
+	<a href="http://codecanyon.net/user/dtbaker" target="_blank">Click here for help and support</a> <br>
+		<a href="/">Click here to update the index</a>
+	<form action="/" method="post">
+	<h2>Search these website addresses for content:</h2>
+	<p>(enter a full website address, 1 per line, like: http://www.google.com)</p>
+	<textarea name="search_html" class="" rows="4" cols="90">http://amestad.mx/php-search-engine
+</textarea>
+	<h2>Search depth:</h2>
+	<p>(how far to search within website, increase this number if you find some pages are not included in search results)</p>
+	<input name="search_depth" value="3">
+	<h2>Cache length:</h2>
+	<p>(how many days before the cache expires - eg: if you change your website content every 4 days, set this to 4)</p>
+	<input name="search_cache" value="1">
+	<h2>(advanced) Ignore any files that match these:</h2>
+	<p>(enter 1 <strong>regex</strong> per line)</p>
+	<p>Example: if you want a file called secret-stuff.html to not appear in search results, add a new line below:  <strong>#secret-stuff\.html#</strong>  (yes, put a \ before any .)</p>
+	<textarea name="search_ignore" rows="9" cols="20">#~$#
+#/\.#
+#/\.ht#
+#private#i
+#phpsearch_files#i
+#search\.php#i
+</textarea>
+	<br>
+	<input type="image" src="http://amestad.mx/php-search-engine/phpsearch_files/button_save.gif" border="0" style="border:0;" name="go" value="Generate Config">
+	<p>More advanced configuration options are available within config.php</p>
+	</form>
+	<hr class="clear"/>
+</div><!--end content-->
+<hr class="clear"/>
+</div><!--end container-->
+</div>
+</body>
+</html>
